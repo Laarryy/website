@@ -1,2 +1,4 @@
 RewriteEngine on
 RewriteRule ^(.*)$ $1.html
+
+ErrorDocument 404 /error404.html
