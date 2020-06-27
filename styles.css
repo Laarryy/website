@@ -44,7 +44,7 @@ a:hover{
 .logo_container{
 	height: 100%;
 	display: table;
-	float: left;
+	flex: auto;
 	background-color: #101010;
 }
 
@@ -69,15 +69,15 @@ a:hover{
 }
 
 .navigation{
-	float: right;
+	flex: auto;
 	height: 100%;
 	background-color: #101010;
 }
 
 .navigation a{
 	height: 100%;
+	flex: auto;
 	display: table;
-	float: left;
 	padding: 0px 0px;
 	color: white;
 	font-family: 'Righteous', cursive;
@@ -88,6 +88,33 @@ a:hover{
 	background-color: #101010;
 }
 
+.navigation a::before{
+	height: 100%;
+	padding: 0px 0px;
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #101010;
+	content: "|";
+	color: dodgerblue;
+}
+
+.navigation a::before:hover{
+	content: "|";
+	color: peru;
+}
+
+.navigation a::after{
+	content: "|";
+	color: dodgerblue;
+}
+
+.navigation a::after:hover{
+	content: "|";
+	color: peru;
+}
 
 .navigation a li{
 	display: table-cell;
