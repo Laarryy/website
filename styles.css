@@ -137,7 +137,21 @@ a:hover{
 	font-family: 'Righteous', cursive;
 	font-size: 16px;
 }
-
+.construction{
+	background-color: #101010;
+	vertical-align: middle;
+}
+#warning{
+	color: aquamarine;
+	font-family: 'Righteous', cursive;
+	font-size: 32px;
+	font-weight: 100;
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 15%;
+	padding-left: 11%;
+	padding-right: 11%;
+}
 
 
 
