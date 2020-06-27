@@ -9,20 +9,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>LaarryyDev</title>
 </head>
-<body>
-	<div class="header">
-		<div class="inner_header">
-			<div class="logo_container">
-				<h1>404<span>Not</span>Found</h1>
-			</div>
-			
-			<ul class="navigation">
-				<a href=""><li id="link1">|Home|&nbsp</li></a>
-				<a href="/projects"><li id="link2">|Projects|&nbsp</li></a>
-				<a href="/contact"><li id="link3">|Contact|&nbsp</li></a>
-				<a href="/bukkitindex"><li id="link4">|Index Project|</li></a>
-    </div>
-  </div>
+<body class="mainpage">
+  <header> <!-- Use a HEADER element instead of <div class="header"> -->
+    <div class="container"> <!-- .container element will help keep your site to a max-width -->
+      <div class="logo"> <!-- renamed from "logo_container" -->
+        Larry<span>Tests</span>Things <!-- Got rid of the h1 tag here, it's not necessary -->
+      </div>
 
+      <nav> <!-- use a NAV element instead of .navigation -->
+        <ul>
+          <li id="link1"> <!-- only LI elements can go inside UL/OL, you had them wrapped in A tags which is illegal.jpg -->
+            <a href="/">Home</a> <!-- href="index.html" can be shortened to href="/" -->
+          </li>
+          <li id="link2"> <!-- you probably don't need these class names -->
+            <a href="/projects">Projects</a>
+          </li>
+          <li id="link3">
+            <a href="/contact">Contact</a>
+          </li>
+          <li id="link4">
+            <a href="/bukkitindex">Index Project</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container warning"> <!-- nothing fancy here just tidying up a bit 👍 -->
+    <p>
+      This page does not exist!
+    </p>
+  </div>
 </body>
 </html>
