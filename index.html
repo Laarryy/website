@@ -10,25 +10,35 @@
 		<title>LaarryyDev</title>
 </head>
 <body class="mainpage">
-	<div class="header">
-		<div class="inner_header">
-			<div class="logo_container">
-				<h1>Larry<span>Tests</span>Things</h1>
-			</div>
-			
-			<ul class="navigation">
-				<a href="/Index"><li id="link1">Home&nbsp</li></a>
-				<a href="/projects"><li id="link2">Projects&nbsp</li></a>
-				<a href="/contact"><li id="link3">Contact&nbsp</li></a>
-				<a href="/bukkitindex"><li id="link4">Index Project</li></a>
-			</ul>
-        </div>
-    </div>
-<div class="construction">
-	<p id="warning">
-		This site is under construction! If you need to contact me, please send an email to hey@laarryy.dev or find me on discord, at Larry#6086! 
-	</p>
-</div>
+  <header> <!-- Use a HEADER element instead of <div class="header"> -->
+    <div class="container"> <!-- .container element will help keep your site to a max-width -->
+      <div class="logo"> <!-- renamed from "logo_container" -->
+        Larry<span>Tests</span>Things <!-- Got rid of the h1 tag here, it's not necessary -->
+      </div>
 
+      <nav> <!-- use a NAV element instead of .navigation -->
+        <ul>
+          <li id="link1"> <!-- only LI elements can go inside UL/OL, you had them wrapped in A tags which is illegal.jpg -->
+            <a href="/">Home</a> <!-- href="index.html" can be shortened to href="/" -->
+          </li>
+          <li id="link2"> <!-- you probably don't need these class names -->
+            <a href="/projects">Projects</a>
+          </li>
+          <li id="link3">
+            <a href="/contact">Contact</a>
+          </li>
+          <li id="link4">
+            <a href="/bukkitindex">Index Project</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container warning"> <!-- nothing fancy here just tidying up a bit 👍 -->
+    <p>
+      This site is under construction! If you need to contact me, please send an email to hey@laarryy.dev or find me on discord, at Larry#6086!
+    </p>
+  </div>
 </body>
 </html>
