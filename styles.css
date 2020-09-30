@@ -95,3 +95,21 @@ nav ul li:not(:first-child) a:before {
 	color: aquamarine;
     text-align: center;
 }
+
+.projectslist {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.projectslist a {
+    color: lightblue;
+}
+
+.projectslist a:hover {
+    color: aquamarine;
+}
