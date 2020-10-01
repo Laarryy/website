@@ -161,3 +161,11 @@ nav ul li:not(:first-child) a:before {
     justify-items: left;
     flex-direction: column;
 }
+
+.sevenyearswar p#intro {
+    color: lime;
+}
+
+.sevenyearswar a {
+    color: forestgreen;
+}
