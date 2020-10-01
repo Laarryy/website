@@ -124,7 +124,7 @@ nav ul li:not(:first-child) a:before {
     margin: 0;
 }
 
-.mainproject {
+.salespitch {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +133,7 @@ nav ul li:not(:first-child) a:before {
     padding-top: 5rem;
 }
 
-.mainproject p {
+.salespitch p {
     display: flex;
     text-indent: 2rem;
     justify-content: center;
@@ -142,6 +142,22 @@ nav ul li:not(:first-child) a:before {
     flex-direction: row;
 }
 
-.mainproject p#intro {
+.salespitch p#intro {
     color: lightblue;
+}
+
+.sevenyearswar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.sevenyearswar p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    justify-items: left;
+    flex-direction: column;
 }
