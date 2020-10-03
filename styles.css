@@ -46,6 +46,7 @@ a:hover {
 body > header {
 	background-color: #101010;
     padding: 1rem 0;
+    margin: 0;
 }
 
 body > header .container {
@@ -65,10 +66,16 @@ body > header .container {
 }
 
 nav ul {
-    display: flex;
+    display: none;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+@media (min-width: 992px) {
+    nav ul {
+       display: flex; 
+    }
 }
 
 nav ul a {
@@ -103,7 +110,6 @@ nav ul li:not(:first-child) a:before {
     font-size: 2rem;
     color: red;
     text-align: center;
-    vertical-align: middle;
 }
 
 .projectslist a {
@@ -112,4 +118,54 @@ nav ul li:not(:first-child) a:before {
 
 .projectslist a:hover {
     color: aquamarine;
+}
+
+.diplohistpage body {
+    margin: 0;
+}
+
+.salespitch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 1.2rem;
+    padding-top: 5rem;
+}
+
+.salespitch p {
+    display: flex;
+    text-indent: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    flex-direction: row;
+}
+
+.salespitch p#intro {
+    color: lightblue;
+}
+
+.sevenyearswar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.sevenyearswar p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    justify-items: left;
+    flex-direction: column;
+}
+
+.sevenyearswar p#intro {
+    color: lime;
+}
+
+.sevenyearswar a {
+    color: forestgreen;
 }
