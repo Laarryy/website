@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 a {
-	color: white;
+    color: white;
 }
 
 a:hover {
@@ -124,7 +124,7 @@ nav ul li:not(:first-child) a:before {
     margin: 0;
 }
 
-.salespitch {
+ .salespitch {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,25 +147,13 @@ nav ul li:not(:first-child) a:before {
 }
 
 .sevenyearswar {
-    color: white;
+    color: wheat;
     display: flex;
     align-items: center;
     justify-content: left;
     flex-direction: column;
 }
 
-.sevenyearswar p {
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    justify-items: left;
-    flex-direction: column;
-}
-
-.sevenyearswar p#intro {
-    color: lime;
-}
-
-.sevenyearswar a {
-    color: forestgreen;
+.sevenyearswar p:not(:first-child) {
+    color: white;
 }
