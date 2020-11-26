@@ -119,13 +119,18 @@ footer ul {
 
 .thesiscontainer {
       display: flex;
+      flex: auto;
       flex-direction: row-reverse;
       align-content: space-around;
       justify-content: space-around;
+      align-items: center;
+      align-content: center;
 }
 
 .thesiscontainer img {
       padding-right: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
 }
 
 .intro p#thesis {
@@ -153,9 +158,8 @@ footer ul {
       align-content: space-between;
 }
 
-.parallelparagraphs p {
+.parallelparagraphs p:not(:last-child) {
       padding-inline-end: 2rem;
-      padding-top: 2rem;
 }
 
 .americanrevolution {
