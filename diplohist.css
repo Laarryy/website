@@ -101,7 +101,7 @@ footer ul {
 
 
 .intro {
-      text-align: left;
+      text-align: justify;
       text-indent: 2rem;
       width: 90%;
       display: flex;
@@ -143,6 +143,19 @@ footer ul {
       content: "\”";
       font-size: 2rem;
       font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parallelparagraphs {
+      display: flex;
+      flex: auto;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: space-between;
+}
+
+.parallelparagraphs p {
+      padding-inline-end: 2rem;
+      padding-top: 2rem;
 }
 
 .americanrevolution {
