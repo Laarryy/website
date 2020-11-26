@@ -134,15 +134,15 @@ footer ul {
 }
 
 .intro p#thesis::before {
-      content: "\"";
+      content: "\“";
       font-size: 2rem;
-      font: normal;
+      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .intro p#thesis::after {
-      content: "\"";
+      content: "\”";
       font-size: 2rem;
-      font: normal;
+      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .americanrevolution {
