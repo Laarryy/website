@@ -9,7 +9,6 @@ body {
       background-color: #0e1e24;
       display: flex;
       flex-direction: column;
-      /* Define global styles like font here in the body or html tag, everything will inherit from this */
       font-family: 'Montserrat', cursive;
       color: white;
       line-height: 125%;
@@ -25,19 +24,17 @@ h2 {
       border-radius: 0.5rem;
       justify-content: center;
       margin: 2rem;
-      font-size: 2.5rem;
-      width: 80%;
-      padding: 1rem 1rem 1rem 1rem;
+      font-size: 1.8rem;
+      padding: 1rem 2rem;
+      line-height: 1.5;
 }
 
 h3 {
-      background: linear-gradient(0.25turn, #1b4e9a, #1b85c2);
       display: flex;
-      border-radius: 2rem;
       justify-content: center;
       margin: 2rem;
       font-size: 1.6rem;
-      width: 80%;
+      width: 80%
       padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -55,9 +52,7 @@ body > header .container {
 }
 
 nav {
-      color: white;
       font-size: 2rem;
-      
 }
 
 nav a {
@@ -65,12 +60,24 @@ nav a {
       text-decoration: none;
 }
 
+body > header:hover {
+      background-color: white;
+      color: #101010;
+}
+body > header:hover nav a {
+      color: #101010;
+}
+
+nav a:hover {
+      color: #101010;
+}
+
 p {
-      width: 90%;  
+      width: 90%;
+      text-indent: 2rem;  
 }
 
 .logo {
-      color: white;
       font-size: 2.1rem;
       display: flex;
       flex-direction: column;
@@ -109,6 +116,9 @@ footer ul {
       justify-items: center;
       align-items: center;
       flex-direction: column;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
 }
 
 .content img {
@@ -119,7 +129,6 @@ footer ul {
 
 .intro {
       text-align: justify;
-      text-indent: 2rem;
       width: 90%;
       display: flex;
       flex-direction: column;
@@ -133,6 +142,7 @@ footer ul {
       width: 100%;
       justify-content: center;
       align-items: center;
+      text-indent: 2rem;
 }
 
 .thesiscontainer {
@@ -182,7 +192,6 @@ footer ul {
 
 .americanrevolution {
       text-align: left;
-      text-indent: 2rem;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -190,17 +199,10 @@ footer ul {
       align-content: center;
       justify-items: center;
       align-items: center;
-}
-
-.americanrevolution p {
-      justify-content: center;
-      align-items: center;
-      width: 90%;
 }
 
 .americantofrench {
       text-align: left;
-      text-indent: 2rem;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -209,12 +211,6 @@ footer ul {
       justify-items: center;
       align-items: center;
 }
-
-/*.americantofrench p {
-      justify-content: center;
-      align-items: center;
-      width: 90%;
-}*/
 
 .americantofrench p#summaryatf {
       font-size: 2rem;
@@ -235,7 +231,6 @@ footer ul {
 
 .frenchrevolution {
       text-align: left;
-      text-indent: 2rem;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -244,16 +239,9 @@ footer ul {
       justify-items: center;
       align-items: center;
 }
-
-/*.frenchrevolution p {
-      justify-content: center;
-      align-items: center;
-      width: 90%;
-}*/
 
 .johnmoore {
       text-align: left;
-      text-indent: 2rem;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -263,15 +251,8 @@ footer ul {
       align-items: center;
 }
 
-/*.johnmoore p {
-      justify-content: center;
-      align-items: center;
-      width: 90%;  
-}*/
-
 .causescompared {
       text-align: left;
-      text-indent: 2rem;
       width: 100%;
       display: flex;
       flex-direction: column;
