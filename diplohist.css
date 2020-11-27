@@ -12,6 +12,7 @@ body {
       /* Define global styles like font here in the body or html tag, everything will inherit from this */
       font-family: 'Montserrat', cursive;
       color: white;
+      line-height: 125%;
 }
 
 a:hover {
@@ -29,10 +30,22 @@ h2 {
       padding: 1rem 1rem 1rem 1rem;
 }
 
+h3 {
+      background: linear-gradient(0.25turn, #1b4e9a, #1b85c2);
+      display: flex;
+      border-radius: 2rem;
+      justify-content: center;
+      margin: 2rem;
+      font-size: 1.6rem;
+      width: 80%;
+      padding: 1rem 1rem 1rem 1rem;
+}
+
 body > header {
     background-color: #101010;
     padding: 1rem 0;
     margin: 0;
+    line-height: 100%;
 }
 
 body > header .container {
@@ -50,6 +63,10 @@ nav {
 nav a {
       color: white;
       text-decoration: none;
+}
+
+p {
+      width: 90%;  
 }
 
 .logo {
@@ -113,6 +130,7 @@ footer ul {
 }
 
 .intro p {
+      width: 100%;
       justify-content: center;
       align-items: center;
 }
@@ -180,3 +198,91 @@ footer ul {
       width: 90%;
 }
 
+.americantofrench {
+      text-align: left;
+      text-indent: 2rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+}
+
+/*.americantofrench p {
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+}*/
+
+.americantofrench p#summaryatf {
+      font-size: 2rem;
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 150%;
+}
+
+.threeparagraphs {
+      display: flex;
+      flex: auto;
+      flex-direction: row;
+      width: 90%;
+}
+
+.threeparagraphs p:not(:last-child) {
+      padding-inline-end: 2rem;
+}
+
+.frenchrevolution {
+      text-align: left;
+      text-indent: 2rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+}
+
+/*.frenchrevolution p {
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+}*/
+
+.johnmoore {
+      text-align: left;
+      text-indent: 2rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+}
+
+/*.johnmoore p {
+      justify-content: center;
+      align-items: center;
+      width: 90%;  
+}*/
+
+.causescompared {
+      text-align: left;
+      text-indent: 2rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+}
+
+.causescompared p {
+      justify-content: center;
+      align-items: center;
+      width: 90%;  
+}
