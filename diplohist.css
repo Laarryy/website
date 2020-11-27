@@ -90,6 +90,14 @@ p {
       text-indent: 2rem;  
 }
 
+p a {
+      color: red;
+}
+
+p a:hover {
+      color: greenyellow
+}
+
 .logo {
       font-size: 2.1rem;
       display: flex;
@@ -221,6 +229,16 @@ footer a:hover {
       align-items: center;
 }
 
+.americapic1 {
+      width: 90%;
+}
+
+.americapic1 img {
+      padding-right: 2rem;
+      padding-bottom: 1rem;
+      float: left;
+}
+
 .americantofrench {
       text-align: left;
       width: 100%;
@@ -312,6 +330,10 @@ footer a:hover {
             flex-direction: column;
       }
 
+      .americapic1 {
+            flex-direction: column;
+      }
+
       nav {
             display: none;
       }
@@ -336,4 +358,18 @@ footer a:hover {
       font-size: 1rem;
       font-family: 'Times New Roman', Times, serif;
       line-height: 2.5;
+}
+
+.sourcelist ol {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-height: 700px;
+      align-content: center;
+}
+
+.sourcelist ol li {
+      list-style: decimal;
+      line-height: 1.5;
 }
