@@ -230,13 +230,9 @@ footer a:hover {
 }
 
 .americapic1 {
-      width: 90%;
-}
-
-.americapic1 img {
-      padding-right: 2rem;
-      padding-bottom: 1rem;
-      float: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 }
 
 .americantofrench {
@@ -343,33 +339,46 @@ footer a:hover {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-items: center;
-      align-content: center;
-      justify-content: center;
-}
-
-.sourcelist h3 {
-      align-items: center;
 }
 
 .sourcelist ul {
-      padding-left: 20%;
-      text-indent: -10%;
       font-size: 1rem;
       font-family: 'Times New Roman', Times, serif;
       line-height: 2.5;
+      width: 100%;
+}
+
+.sourcelist ul li {
+      text-indent: -2rem;
+      padding-left: 5rem;
+}
+
+.sourcelist a {
+      color: red;
+}
+
+.sourcelist a:hover {
+      color: greenyellow;
 }
 
 .sourcelist ol {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-      max-height: 700px;
-      align-content: center;
+      align-items: left;
+      justify-items: center;
+      align-content: left;
+      justify-content: left;
+      
 }
 
 .sourcelist ol li {
       list-style: decimal;
+      list-style-position: inside;
       line-height: 1.5;
+}
+
+.endnotes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 }
