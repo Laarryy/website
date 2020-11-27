@@ -313,28 +313,6 @@ footer a:hover {
       align-items: center;
 }
 
-@media (max-width: 950px) {
-      .parallelparagraphs {
-            flex-direction: column;
-      }
-
-      .threeparagraphs {
-            flex-direction: column;
-      }
-
-      .thesiscontainer {
-            flex-direction: column;
-      }
-
-      .americapic1 {
-            flex-direction: column;
-      }
-
-      nav {
-            display: none;
-      }
-}
-
 .sourcelist {
       display: flex;
       flex-direction: column;
@@ -383,12 +361,26 @@ footer a:hover {
       align-items: center;
 }
 
+.fullpage {
+      display: flex;
+      flex-direction: row;
+}
+
 .resources {
+      margin: 0;
+      padding: 0;
       display: flex;
       flex: auto;
       flex-direction: column;
-      font-size: 3rem;
+      font-size: 1rem;
       color: white;
+      align-items: center;
+      line-height: 10;
+}
+
+.pics {
+      display: flex;
+      flex-direction: column;
 }
 
 .resources a {
@@ -397,4 +389,30 @@ footer a:hover {
 
 .resources a:hover {
       color: greenyellow;
+}
+
+@media (max-width: 950px) {
+      .parallelparagraphs {
+            flex-direction: column;
+      }
+
+      .threeparagraphs {
+            flex-direction: column;
+      }
+
+      .thesiscontainer {
+            flex-direction: column;
+      }
+
+      .americapic1 {
+            flex-direction: column;
+      }
+
+      nav {
+            display: none;
+      }
+      
+      .fullpage {
+            flex-direction: column;
+      }
 }
